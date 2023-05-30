@@ -50,6 +50,7 @@ addButton.addEventListener('click', () => {
 
 booksList.addEventListener('click', (event) => {
   if (event.target.tagName === 'BUTTON') {
+    // Get the index of the book to remove
     const index = parseInt(event.target.dataset.index, 10);
     removeBook(index);
     localStorage.setItem('books', JSON.stringify(books));
