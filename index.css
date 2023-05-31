@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 h1,
 h2,
 p {
@@ -7,4 +11,28 @@ p {
 
 .wrapper {
   min-height: 300px;
+}
+
+.add-book {
+  border: solid black 2px;
+  width: 50%;
+  margin: 0 0 0 20rem; 
+}
+
+hr {
+  width: 50px;
+  border: solid black 1px;
+}
+
+input {
+  border: solid black 2px;
+  color: black;
+  font-family: 'poppins' sans-serif;
+}
+
+button {
+  background-color: white;
+  border: solid black 2px;
+  box-shadow: 2px 1px 0px rgba(0, 0, 0, 1.0);
+  font-family: 'poppins' sans-serif;
 }
