@@ -13,17 +13,6 @@ p {
   min-height: 300px;
 }
 
-.add-book {
-  border: solid black 2px;
-  width: 50%;
-  margin: 0 0 0 20rem; 
-}
-.add-book ul li:nth-child(odd) {
-  background-color: #a29c9c;
-}
-.add-book ul li span {
-  padding-left: 10px;
-}
 ul li {
   list-style: none;
   display: flex;
@@ -35,6 +24,21 @@ ul li {
   border-radius: 5px;
   background-color: #d9d9d9;
 }
+
+.add-book {
+  border: solid black 2px;
+  width: 50%;
+  margin: 0 0 0 20rem;
+}
+
+.add-book ul li:nth-child(odd) {
+  background-color: #a29c9c;
+}
+
+.add-book ul li span {
+  padding-left: 10px;
+}
+
 hr {
   width: 50px;
   border: solid black 1px;
@@ -43,12 +47,10 @@ hr {
 input {
   border: solid black 2px;
   color: black;
-  font-family: 'poppins' sans-serif;
 }
 
 button {
   background-color: white;
   border: solid black 2px;
-  box-shadow: 2px 1px 0px rgba(0, 0, 0, 1.0);
-  font-family: 'poppins' sans-serif;
+  box-shadow: 2px 1px 0 rgba(0, 0, 0, 1);
 }
