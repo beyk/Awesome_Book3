@@ -28,7 +28,7 @@ class BookCollection {
     this.booksList.innerHTML = '';
     this.books.forEach((book, index) => {
       const listItem = document.createElement('li');
-      listItem.innerHTML = `${book.title} by ${book.author}<button data-index="${index}">Remove</button>`;
+      listItem.innerHTML = `"${book.title}" by ${book.author}<button data-index="${index}">Remove</button>`;
       this.booksList.appendChild(listItem);
     });
   }
