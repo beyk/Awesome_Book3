@@ -24,6 +24,17 @@ p {
 .add-book ul li span {
   padding-left: 10px;
 }
+ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border: solid black 1px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+}
 hr {
   width: 50px;
   border: solid black 1px;
