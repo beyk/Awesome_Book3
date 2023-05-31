@@ -18,7 +18,12 @@ p {
   width: 50%;
   margin: 0 0 0 20rem; 
 }
-
+.add-book ul li:nth-child(odd) {
+  background-color: #a29c9c;
+}
+.add-book ul li span {
+  padding-left: 10px;
+}
 hr {
   width: 50px;
   border: solid black 1px;
