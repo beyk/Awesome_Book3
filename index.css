@@ -54,3 +54,20 @@ button {
   border: solid black 2px;
   box-shadow: 2px 1px 0 rgba(0, 0, 0, 1);
 }
+
+.menu {
+  display: flex;
+  border: solid black 2px;
+  width: 58%;
+  margin: 0 0 0 17rem;
+}
+
+#menu-list {
+  display: flex;
+  margin: 0 0 0 17rem;
+}
+
+h3 {
+  margin: 18px 0 0 0;
+}
+
