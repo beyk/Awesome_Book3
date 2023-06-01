@@ -36,7 +36,7 @@ class BookCollection {
   // Add a book to the collection
   addBook(title, author) {
     const book = { title, author };
-    this.books.concat(book);
+    this.books.push(book);
     this.renderBooks();
     localStorage.setItem('books', JSON.stringify(this.books));
     this.titleInput.value = '';
