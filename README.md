@@ -112,3 +112,11 @@ It's a good experience, we can't express how we feel after learning and implemen
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
