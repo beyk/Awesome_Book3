@@ -22,4 +22,13 @@
       "dist/",
       "build/"
     ]
+    {
+      "env": {
+        "browser": true,
+        "node": true
+      },
+      "globals": {
+        "module": true
+      }
+    }
   }
