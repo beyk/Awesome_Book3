@@ -1,3 +1,5 @@
+import addTime from './time.js';
+setInterval(addTime, 1000);
 // Define a Book class to manage the book list
 class Book {
   constructor(title, author) {
