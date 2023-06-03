@@ -14,6 +14,12 @@
           "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
         }
       ],
+      "import/extensions": [
+        "error",
+        {
+            "js": "ignorePackages"
+        }
+    ],
       "csstree/validator": true
     },
     "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
